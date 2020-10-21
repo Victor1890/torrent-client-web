@@ -1,0 +1,31 @@
+{
+  "name": "torrent-client-web",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Victor1890/torrent-client-web.git"
+  },
+  "keywords": [
+    "bittorrent",
+    "web-torrent",
+    "torrent"
+  ],
+  "author": "Victor Rosario <victorrosariodeveloper@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Victor1890/torrent-client-web/issues"
+  },
+  "homepage": "https://github.com/Victor1890/torrent-client-web#readme",
+  "dependencies": {
+    "webtorrent": "^0.108.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
